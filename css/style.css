@@ -20,11 +20,11 @@ body {
   flex-direction: column;
   width: 100%;
   max-width: 1440px;
+  min-width: 320px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   gap: 30px;
-  list-style: none;
 }
 
 ul {

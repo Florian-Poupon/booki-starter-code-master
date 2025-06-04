@@ -18,24 +18,24 @@
   </head>
 
   <body>
-    <!-- Header  -------------------------------------------------- -->
+    <!-- Header   -->
     <header>
       <div class="header-container">
         <div class="header-logo">
           <img src="images/logo/Booki.png" alt="Logo de Booki" />
         </div>
-        <div class="header-nav">
-          <div class="header-nav-item"><a href="#">Hébergements</a></div>
-          <div class="header-nav-item"><a href="#">Activités</a></div>
-        </div>
+        <nav class="header-nav">
+          <div class="header-nav-item"><a href="#hebergements">Hébergements</a></div>
+          <div class="header-nav-item"><a href="#activites">Activités</a></div>
+        </nav>
       </div>
     </header>
     <div class="main-container">
       <main>
-        <!-- Filter  -------------------------------------------------- -->
+        <!-- Filter   -->
         <div class="filter">
           <div class="filter-title">
-            <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+            <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre-ville ou en pleine nature</p>
           </div>
           <form class="search-bar" role="search" aria-label="Recherche d'hébergements à Marseille">
@@ -43,16 +43,16 @@
               <i class="fa-solid fa-location-dot"></i>
             </label>
             <input id="location" type="text" placeholder="Marseille, France" name="location" aria-label="Lieu de recherche" required />
-            <button href="#" type="submit" aria-label="Lancer la recherche">Rechercher</button>
+            <button type="submit" aria-label="Lancer la recherche">Rechercher</button>
           </form>
 
           <div class="filter-bar">
             <h3>Filtres</h3>
             <div class="filter-bar-input">
-              <button class="filter-button-economique"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
-              <button class="filter-button-familial"><i class="fa-solid fa-person"></i>Familial</button>
-              <button class="filter-button-romantique"><i class="fa-solid fa-heart"></i>Romantique</button>
-              <button class="filter-button-pepites"><i class="fa-solid fa-fire"></i>Nos pépites</button>
+              <button><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+              <button><i class="fa-solid fa-heart"></i>Romantique</button>
+              <button><i class="fa-solid fa-fire"></i>Nos pépites</button>
+              <button><i class="fa-solid fa-person"></i>Familial</button>
             </div>
           </div>
           <div class="info-bar">
@@ -61,9 +61,9 @@
           </div>
         </div>
 
-        <!-- Hebergements and Populaires  -------------------------------------------------- -->
+        <!-- Hebergements and Populaires -->
         <div class="hebergements-and-populaires">
-          <section class="hebergements">
+          <section id="hebergements" class="hebergements">
             <div class="hebergements-title">
               <h2>Hébergements à Marseille</h2>
             </div>
@@ -254,38 +254,40 @@
           </section>
         </div>
 
-        <div class="activites">
+        <section id="activites" class="activites">
           <div class="activites-title">
             <h2 class="section-title">Activités à Marseille</h2>
           </div>
           <div class="activites-cards">
             <a href="#">
               <article class="card">
-                <img src="./images/activites/reno-laithienne.jpg" alt="Image de l'activité 1" />
+                <img src="./images/activites/reno-laithienne.jpg" alt="Image de l'activité Vieux-Port" />
                 <h3 class="card-title">Vieux-Port</h3>
               </article>
             </a>
             <a href="#">
               <article class="card">
-                <img src="./images/activites/paul-hermann.jpg" alt="Image de l'activité 1" />
+                <img src="./images/activites/paul-hermann.jpg" alt="Image de l'activité Fort de Pomègues" />
                 <h3 class="card-title">Fort de Pomègues</h3>
               </article>
             </a>
             <a href="#">
               <article class="card">
-                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de l'activité 1" />
+                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image de l'activité Parc National des Calanques" />
                 <h3 class="card-title">Parc National des Calanques</h3>
               </article>
             </a>
             <a href="#">
               <article class="card">
-                <img src="./images/activites/florian-wehde.jpg" alt="Image de l'activité 1" />
+                <img src="./images/activites/florian-wehde.jpg" alt="Image de l'activité Notre-Dame-de-la-Garde" />
                 <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
               </article>
             </a>
           </div>
-        </div>
-        <!-- Footer  -------------------------------------------------- -->
+        </section>
+
+        <!-- Footer -->
+
         <footer>
           <div class="footer-section">
             <h3>A propos</h3>
