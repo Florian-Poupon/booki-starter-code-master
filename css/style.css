@@ -27,10 +27,6 @@ body {
   gap: 30px;
 }
 
-ul {
-  list-style: none;
-}
-
 /* Header */
 
 .header-container,
@@ -162,7 +158,8 @@ a {
   border: 1px solid var(--main-bg-color);
 }
 
-.search-bar button {
+.search-bar-button {
+  display: block;
   background-color: var(--main-color);
   border: 1px solid var(--main-color);
   width: 132px;
@@ -173,6 +170,10 @@ a {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+}
+
+.search-bar-button-mobile {
+  display: none;
 }
 
 /* filter */
@@ -398,7 +399,7 @@ a {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  height: 439px;
+  height: fit-content;
   width: 100%;
   padding: 0;
   gap: 0;
@@ -440,4 +441,5 @@ footer {
   gap: 15px;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
