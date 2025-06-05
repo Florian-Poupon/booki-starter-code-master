@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,8 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -26,8 +25,10 @@
           <img src="images/logo/Booki.png" alt="Logo de Booki" />
         </div>
         <nav class="header-nav">
-          <div class="header-nav-item"><a href="#hebergements">Hébergements</a></div>
-          <div class="header-nav-item"><a href="#activites">Activités</a></div>
+          <ul>
+            <li><a href="#hebergements">Hébergements</a></li>
+            <li><a href="#activites">Activités</a></li>
+          </ul>
         </nav>
       </div>
     </header>
@@ -130,7 +131,7 @@
               </a>
               <a href="#">
                 <article class="card">
-                  <img src="./images/hebergements/annie-spratt.jpg " alt="Image de la chambre d'hôtel de la mer" />
+                  <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel de la mer" />
                   <div class="card-content">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel de la mer</h3>
@@ -288,34 +289,32 @@
             </a>
           </div>
         </section>
-
-        <!-- Footer -->
-
-        <footer>
-          <div class="footer-section">
-            <h3>A propos</h3>
-            <ul>
-              <li><a href="#">Fonctionnement du site</a></li>
-              <li><a href="#">Conditions générales</a></li>
-              <li><a href="#">Données et confidentialité</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>Nos hébergements</h3>
-            <ul>
-              <li><a href="#">Charte qualité</a></li>
-              <li><a href="#">Proposer votre hôtel</a></li>
-            </ul>
-          </div>
-          <div class="footer-section">
-            <h3>Assistance</h3>
-            <ul>
-              <li><a href="#">Centre d’aide</a></li>
-              <li><a href="#">Nous contacter</a></li>
-            </ul>
-          </div>
-        </footer>
       </main>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-section">
+          <h3>A propos</h3>
+          <ul>
+            <li><a href="#">Fonctionnement du site</a></li>
+            <li><a href="#">Conditions générales</a></li>
+            <li><a href="#">Données et confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Nos hébergements</h3>
+          <ul>
+            <li><a href="#">Charte qualité</a></li>
+            <li><a href="#">Proposer votre hôtel</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Assistance</h3>
+          <ul>
+            <li><a href="#">Centre d’aide</a></li>
+            <li><a href="#">Nous contacter</a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
